@@ -1,0 +1,170 @@
+/*Styles for Review Section */
+.checked {
+    color: orange;
+}
+
+.slick-slide .inner {
+  margin: 0 15px;
+}
+
+/* Carousel of Review */
+.card {
+  margin: 0 auto;
+}
+
+.card .carousel-item {
+  height: 200px;
+}
+
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+
+.card .carousel-caption p {
+  line-height: 30px;
+}
+
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+
+.navi a {
+  text-decoration:none;
+}
+
+a > .ico {
+  background-color: grey;
+  padding: 10px;
+}
+
+a:hover > .ico {
+  background-color: #666;
+}
+
+
+
+/* Style for social media buttons */
+.social .fa {
+  padding: 25px;
+  font-size: 30px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* Styles for Services Section */
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #696969;
+  }
+
+  .container:hover .overlay {
+    opacity: 0.7;
+  }
+
+  .image:hover {
+    opacity: 0.3;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+/* Unknown Styles, not really needed. Keeping for safety */
+  .thumbnail {
+  position:relative;
+  overflow:hidden;
+}
+
+.caption {
+  position:absolute;
+  top:0;
+  right:0;
+  background:rgba(66, 139, 202, 0.75);
+  width:100%;
+  height:100%;
+  padding:2%;
+  display: none;
+  text-align:center;
+  color:#fff !important;
+  z-index:2;
+}
+
+/* Disabling Payment Link on Calculate Page*/
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
